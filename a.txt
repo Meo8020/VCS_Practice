@@ -1,0 +1,38 @@
+#This is the code to help you connect your terminal to a remote repository on github
+#the file you upload will be on master or main depending on the branch that you click online
+
+cd Spring2024
+  499  ls
+  500  cd PYTHONLABS
+  501  ls
+  502  cd data
+  503  mkdir HW3401
+  504  ls
+  505  cd HW3401
+  506  ls
+  507  touch a.txt
+  508  ls
+  509  git init
+  510  ls
+  511  ls -a
+  512  git status
+  513  git add a.txt
+  514  git status
+  515  git commit -m "first commit"
+  516  git status
+  517  git branch -M master
+  518  git branch
+  519  git remote add origin
+  520  git remote add origin https://github.com/Meo8020/VCS_Practice.git
+  521  git remote -v
+  522  git status
+  523  git remote add origin https://github.com/Meo8020/VCS_Practice.git
+  524  git remote remove origin
+  525  git remote add origin https://github.com/Meo8020/VCS_Practice.git
+  526  git remote -v
+  527  git push origin https://github.com/Meo8020/VCS_Practice.git
+  528  git push https://github.com/Meo8020/VCS_Practice.git
+  529  git push -u master
+  530  git status
+  531  git remote -v
+  532  start a.txt
